@@ -33,7 +33,7 @@ function question2 () {
 
   for (var i = 0; i < data.length; i++) {
     let int = data[i].price;
-    if(int > 14 && int < 18){
+    if(int >= 14.00 && int <= 18.00){
       let items = data[i].title + " " + data[i].price;
       itemss.push(items);
     }
